@@ -1,14 +1,14 @@
 exports.createPages = async ({ actions }) => {
   const { createPage } = actions
   createPage({
-    path: "/using-dsg",
-    component: require.resolve("./src/templates/using-dsg.js"),
+    path: '/using-dsg',
+    component: require.resolve('./src/templates/using-dsg.js'),
     context: {},
     defer: true,
   })
 }
 
-const path = require("path")
+const path = require('path')
 
 // Setup Import Alias
 exports.onCreateWebpackConfig = ({ getConfig, actions }) => {
@@ -18,9 +18,9 @@ exports.onCreateWebpackConfig = ({ getConfig, actions }) => {
     output,
     resolve: {
       alias: {
-        components: path.resolve(__dirname, "src/components"),
-        utils: path.resolve(__dirname, "src/utils"),
-        hooks: path.resolve(__dirname, "src/hooks"),
+        components: path.resolve(__dirname, 'src/components'),
+        utils: path.resolve(__dirname, 'src/utils'),
+        hooks: path.resolve(__dirname, 'src/hooks'),
       },
     },
   })
