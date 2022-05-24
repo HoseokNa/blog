@@ -3,7 +3,7 @@ module.exports = {
     title: `Hoseok's dev blog`,
     description: `주니어 FE 개발자 나호석의 블로그입니다.`,
     author: `Hoseok`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://hoseok.vercel.app/`,
   },
   plugins: [
     {
@@ -85,7 +85,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: '<https://my-website.com/>',
+        siteUrl: 'https://hoseok.vercel.app/',
         stripQueryString: true,
       },
     },
