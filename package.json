@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "hoseok-dev-blog",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Junior FE developer blog",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Hoseok Na <hsna7024@gmail.com>",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -60,9 +60,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/HoseokNa/blog"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/HoseokNa/blog/issues"
   }
 }
